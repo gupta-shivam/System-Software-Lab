@@ -1,0 +1,34 @@
+Input:
+
+When Virat Kohli announced at the toss in St Lucia that India were making
+three changes to their side, and that one person widely expected to step back
+into the side, M Vijay, was not doing so, your mind went back to Sydney, to
+his first Test as captain after MS Dhoni's retirement.
+
+India made four changes on that occasion. One, Wriddhiman Saha replacing
+Dhoni, was a forced change. The other three were, to varying degrees,
+unexpected. Shikhar Dhawan, Cheteshwar Pujara and Ishant Sharma went out of
+the side, and in their places came Rohit Sharma, Suresh Raina and Bhuvneshwar
+Kumar. There was even a surprise retention. KL Rahul, who had made the most
+nervous of debuts in Melbourne, scoring 3 and 1, kept his place.
+
+It felt like what it was: a step into a new era, of a captain willing to make
+wholesale changes to his side, based on a mix of form, conditions, and gut
+feel. At the end of the St Lucia Test, Kohli elaborated on this willingness.
+
+"Usually if you see very few people like change," he said. "This team doesn't
+think how others would react or what they might say. We put out a combination
+that's best according to the pitch. When I came at No. 3 many people asked why
+I did it. But I am not fixated by my batting spot. If the team needs, I can
+open the batting too because that's the rule applicable to everyone in the
+team.
+
+Output:
+
+When Virat Kohli announced at the toss in St Lucia that India were making three changes to their side, and that one person widely expected to step back into the side, M Vijay, was not doing so, your mind went back to Sydney, to his first Test as captain after MS Dhoni's retirement.
+
+India made four changes on that occasion. One, Wriddhiman Saha replacing Dhoni, was a forced change. The other three were, to varying degrees, unexpected. Shikhar Dhawan, Cheteshwar Pujara and Ishant Sharma went out of the side, and in their places came Rohit Sharma, Suresh Raina and Bhuvneshwar Kumar. There was even a surprise retention. KL Rahul, who had made the most nervous of debuts in Melbourne, scoring 3 and 1, kept his place.
+
+It felt like what it was: a step into a new era, of a captain willing to make wholesale changes to his side, based on a mix of form, conditions, and gut feel. At the end of the St Lucia Test, Kohli elaborated on this willingness.
+
+"Usually if you see very few people like change," he said. "This team doesn't think how others would react or what they might say. We put out a combination that's best according to the pitch. When I came at No. 3 many people asked why I did it. But I am not fixated by my batting spot. If the team needs, I can open the batting too because that's the rule applicable to everyone in the team.

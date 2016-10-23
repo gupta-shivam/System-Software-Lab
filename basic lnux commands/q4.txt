@@ -1,0 +1,24 @@
+
+On measuring DHCPDISCOVER frame the diagnoser moves from $ O $-node $ z_0 $ to
+$ z_1 $ via the $ G $-transition $ \tau_1 \text{ or } \tau'_1 $. As $ \tau_1\
+\text{and}\ \tau'_1 $ are measurement equivalent it cannot be ascertained at
+this point whether an attack has taken place or not. Eventually it can be seen
+that on measuring the DHCPREQUEST frame the diagnoser reaches the $ O $-node $
+z_7 $. The diagnoser measures the
+DHCP-PROBE-RESPONSE-OFFER frame which results in measurement inconsistency, as
+no outgoing transition from $ O $-node $ z_7 $ consists of the
+DHCP-PROBE-RESPONSE-OFFER event (transition $ \tau'_{15} $). So the estimator
+diagnoser is invoked that predicts the possible $ O $-nodes that can be
+directly
+reached from $ z_7 $ using the `{Reachable $ O $-node set $ RS_{z_i}' $ }
+defined in Definition \ref{def:reachable o node set}. $ RS_{z_7} $ is: $ (
+z_0, z_1, \cdots, z_{20} ) $. For each $ O $-node in $ RSz_7 $, the incoming
+$ G $-transition(s) are checked against the $ G $-transition $ \tau'_{15} $.
+Only the $ O $-node $ z_{11} $ remains out of all the
+reachable $ O $-node(s), that fulfills the criteria of reachability and has
+an incoming $ O $-transition $ a_{15} $ caused by $ G $-transition $
+\tau'_{15} $. So, the diagnoser marks $ z_{11} $ as its current state and
+continues the fault diagnosis. As the $ O $-node $ z_{11} $ traversed by the
+diagnoser is an $ F_i $-certain $ O $-node, the system is under fault
+(attack) condition. Thus, the MIDES framework helps to detect the
+presence of \rds even if a measurement inconsistency occurs.

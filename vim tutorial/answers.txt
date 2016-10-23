@@ -1,0 +1,49 @@
+1.	:%s/\([esta]\)/\U\1/g | :w newvim.txt
+
+2.	:call feedkeys(repeat("y", 12) . "q") | %s/Sachin/SRT\ The\ Great/gc
+
+3.	:read !ls
+
+4.	:let @p=1 | %s/ubuntu/\='UBUNTU_'.(@p+setreg('p' , @p+1))/gi
+
+5.	:%s/\(\<\S\+\>\)\(\s\+\<\1\>\)\+/\1/g
+
+6.checked	
+	:g/^\<\(From\|To\|Subject\|Date\)\>.*/y A
+	:e output.txt
+	"ap
+	:wq
+
+6.	vi emailheader.txt
+	:redir >> output.txt /*or output */
+	:g/^Date\|^Subject\|^From\|^To
+	redir END
+
+
+7.	PART A = VISUAL MODE
+
+	TO COMMENT
+	enter visual block mode - ctrl+v
+	select lines that you want to comment 
+	enter insert mode = shift+i
+	enter '//' for the comment in the first line
+	press 'esc'
+
+	TO UNCOMMENT
+	enter visual block mode - ctrl+v
+	select characters that you want to delete
+	press 'x'
+	press 'esc'
+
+7.	
+	mapping :map <f2> :’<‘>’ norm i// +ctrlR
+	map <f3> :’<‘>’ norm xx +ctrlR
+
+
+
+
+
+8.	:%s/\(\/\*\_.\{-}\*\/\)\|\(\/\/.*\)//g
+
+9.	press q + anykeytorecordinto , /God + enter + press i for insert mopde replace it by almighty/n , press esc press q
+to run recodring @anykeytorecordinto

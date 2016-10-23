@@ -1,0 +1,254 @@
+Ubuntu (/u?'bu?ntu?/ oo-boon-too)[7][8][9] is a Debian-based Linux operating system, with Unity as its default desktop environment (GNOME was the previous desktop environment). It is based on free software and named after the Southern African philosophy of ubuntu (literally, "human-ness"), which often is translated as "humanity towards others" or "the belief in a universal bond of sharing that connects all humanity".[10]
+
+According to some metrics, Ubuntu is the most popular desktop Linux distribution to date. See Installed base section.
+
+Development of Ubuntu is led by Canonical Ltd.,[11] a company owned by South African entrepreneur Mark Shuttleworth. Canonical generates revenue through the sale of technical support and other services related to Ubuntu.[12][13] The Ubuntu project is publicly committed to the principles of open source development; people are encouraged to use free software, study how it works, improve upon it, and distribute it.[14][15]
+
+Contents [hide]
+1 Features
+2 History and development process
+2.1 System requirements
+2.2 Installation
+3 Package classification and support
+3.1 Availability of third-party software
+4 Releases
+5 Variants
+5.1 Ubuntu Server
+5.2 Cloud computing
+6 Development
+7 Adoption and reception
+7.1 Installed base
+7.1.1 Publicized large-scale deployments
+7.2 Critical reception
+7.2.1 Amazon controversy
+7.3 China
+8 Local communities (LoCos)
+9 Vendor support
+10 See also
+11 References
+12 Bibliography
+13 External links
+Features[edit]
+A default installation of Ubuntu contains a wide range of software that includes LibreOffice, Firefox, Empathy, Transmission, and several lightweight games such as Sudoku and chess.[16][17] Many additional software packages, including titles no longer in the default installation such as Evolution, GIMP, Pidgin, and Synaptic, are accessible from the built in Ubuntu Software Center as well as any other APT based package management tool. Execution of Microsoft Office and other Microsoft Windows applications can be facilitated via the Wine compatibility package or through the use of a virtual machine such as VirtualBox or VMware Workstation.
+
+The Ubiquity installer allows Ubuntu to be installed to the hard disk from within the Live CD environment.
+
+For increased security, the sudo tool is used to assign temporary privileges for performing administrative tasks, allowing the root account to remain locked, and preventing inexperienced users from inadvertently making catastrophic system changes or opening security holes.[18] PolicyKit is also being widely implemented into the desktop to further harden the system through the principle of least privilege.
+
+Ubuntu can close its own network ports using its own firewall software. End-users can install Gufw (GUI for Uncomplicated Firewall) and keep it enabled.[19]
+
+Ubuntu compiles its packages using GCC features such as PIE and buffer overflow protection to harden its software.[20] These extra features greatly increase security at the performance expense of 1% in 32 bit and 0.01% in 64 bit.[21]
+
+Beginning with Ubuntu 5.04, UTF-8 became the default character encoding,[22] which allows for support of a variety of non-Roman scripts.
+
+History and development process[edit]
+Ubuntu is built on Debian's architecture and infrastructure, to provide Linux server, desktop, phone, tablet and TV operating systems.[23] Ubuntu releases updated versions predictably — every six months[8] — and each release receives free support for nine months (eighteen months prior to 13.04)[24] with security fixes, high-impact bug fixes and conservative, substantially beneficial low-risk bug fixes.[25] The first release was on October 2004.
+
+It was decided that every fourth release, issued on a two-year basis, would receive long-term support (LTS).[8] Long term support includes updates for new hardware, security patches and updates to the 'Ubuntu stack' (cloud computing infrastructure).[13] The first LTS releases were supported for three years on the desktop and five years on the server; since Ubuntu 12.04 LTS, desktop support for LTS releases was increased to five years as well.[26][27][28] LTS releases get regular point releases with support for new hardware and integration of all the updates published in that series to date.[29]
+
+Ubuntu packages are based on packages from Debian's unstable branch: both distributions use Debian's deb package format and package management tools (APT and Ubuntu Software Center). Debian and Ubuntu packages are not necessarily binary compatible with each other, however; packages may need to be rebuilt from source to be used in Ubuntu.[30] Many Ubuntu developers are also maintainers of key packages within Debian. Ubuntu cooperates with Debian by pushing changes back to Debian,[31] although there has been criticism that this does not happen often enough. Ian Murdock, the founder of Debian, has expressed concern about Ubuntu packages potentially diverging too far from Debian to remain compatible.[32] Before release, packages are imported from Debian Unstable continuously and merged with Ubuntu-specific modifications. A month before release, imports are frozen, and packagers then work to ensure that the frozen features interoperate well together.
+
+Ubuntu is currently funded by Canonical Ltd. On 8 July 2005, Mark Shuttleworth and Canonical Ltd. announced the creation of the Ubuntu Foundation and provided an initial funding of US$10 million. The purpose of the foundation is to ensure the support and development for all future versions of Ubuntu. Mark Shuttleworth describes the foundation as an "emergency fund" (in case Canonical's involvement ends).[33]
+
+On 12 March 2009, Ubuntu announced developer support for 3rd party cloud management platforms, such as for those used at Amazon EC2.[34]
+
+Beginning with version 10.10, Ubuntu Netbook Edition used the Unity desktop as its desktop interface.[35] Starting with Ubuntu 11.04, the netbook edition has been merged into the desktop edition[36] and Unity became the default GUI for Ubuntu Desktop.[37][38]
+
+Mark Shuttleworth announced on 31 October 2011 that Ubuntu's support for smartphones, tablets, TVs and smart screens is scheduled to be added by Ubuntu 14.04.[39] On 9 January 2012, Canonical announced Ubuntu TV at the Consumer Electronics Show.[40][41][42][43][44]
+
+System requirements[edit]
+The system requirements vary among Ubuntu products. For the Ubuntu desktop release, a PC with at least 768 MB of RAM and 5 GB of disk space is recommended.[45] For less powerful computers, there are other Ubuntu distributions such as Lubuntu and Xubuntu.
+
+As of version 12.04, Ubuntu supports the ARM[2][3][4][5] and x86 (32 bit and 64 bit) architectures. There is unofficial support for PowerPC.[2][46][47]
+
+Installation[edit]
+
+
+Ubuntu running on the Nexus S, an Android smartphone
+Installation of Ubuntu is generally performed with the Live CD or a Live USB drive. The Ubuntu OS can run directly from the CD (although this is usually slower than running Ubuntu from an HDD), allowing a user to "test-drive" the OS for hardware compatibility and driver support. The CD also contains the Ubiquity installer,[48] which can then guide the user through the permanent installation process. CD images of all current and past versions are available for download at the Ubuntu web site.[49] Installing from the CD requires a minimum of 384 MB of RAM (as of Ubuntu 12.10).
+
+Users can download a disk image (.iso) of the CD, which can then either be written to a physical medium (CD or DVD), or optionally run directly from a hard drive (via UNetbootin or GRUB). Ubuntu is also available on PowerPC, SPARC, and IA-64 platforms, although these platforms are not officially supported.[50]
+
+Canonical offered Ubuntu[51] and Kubuntu[52] Live installation CDs at no cost including paid postage for most destinations around the world via a service called ShipIt. This service closed in April 2011. The Canonical Store offers five CDs for £5.00. Various third-party programs such as remastersys and Reconstructor are available to create customized copies of the Ubuntu Live CDs.
+
+Ubuntu and Kubuntu can be booted and run from a USB Flash drive (as long as the BIOS supports booting from USB), with the option of saving settings to the flashdrive. This allows a portable installation that can be run on any PC which is capable of booting from a USB drive.[53] In newer versions of Ubuntu, the USB creator program is available to install Ubuntu on a USB drive (with or without a LiveCD disc).
+
+The desktop edition can be also installed using the Netboot image which uses the debian-installer and allows certain specialist installations of Ubuntu: setting up automated deployments, upgrading from older installations without network access, LVM and/or RAID partitioning, installs on systems with less than about 256 MB of RAM (although low-memory systems may not be able to run a full desktop environment reasonably).[54]
+
+Package classification and support[edit]
+Ubuntu divides most software into four domains to reflect differences in licensing and the degree of support available.[55] Some unsupported applications receive updates from community members, but not from Canonical Ltd.
+
+Free software Non-free software
+Supported Main Restricted
+Unsupported Universe Multiverse
+Free software includes software that has met the Ubuntu licensing requirements,[55] which roughly correspond to the Debian Free Software Guidelines. Exceptions, however, include firmware and fonts, in the Main category, because although they are not allowed to be modified, their distribution is otherwise unencumbered.[citation needed]
+
+Non-free software is usually unsupported (Multiverse), but some exceptions (Restricted) are made for important non-free software. Supported non-free software includes device drivers that can be used to run Ubuntu on some current hardware, such as binary-only graphics card drivers. The level of support in the Restricted category is more limited than that of Main, because the developers may not have access to the source code. It is intended that Main and Restricted should contain all software needed for a complete desktop environment.[55] Alternative programs for the same tasks and programs for specialized applications are placed in the Universe and Multiverse categories.
+
+In addition to the above, in which the software does not receive new features after an initial release, Ubuntu Backports is an officially recognized repository for backporting newer software from later versions of Ubuntu.[56] The repository is not comprehensive; it consists primarily of user-requested packages, which are approved if they meet quality guidelines. Backports receives no support at all from Canonical, and is entirely community-maintained.
+
+The -updates repository provides stable release updates (SRU) of Ubuntu and are generally installed through update-manager. Each release is given its own -updates repository (e.g. intrepid-updates). The repository is supported by Canonical Ltd. for packages in main and restricted, and by the community for packages in universe and multiverse. All updates to the repository must meet certain requirements and go through the -proposed repository before being made available to the public.[57] Updates are scheduled to be available until the end of life for the release.
+
+In addition to the -updates repository, the unstable -proposed repository contains uploads which must be confirmed before being copied into -updates. All updates must go through this process to ensure that the patch does truly fix the bug and there is no risk of regression.[58] Updates in -proposed are confirmed by either Canonical or members of the community.
+
+Canonical's partner repository lets vendors of proprietary software deliver their products to Ubuntu users at no cost through the same familiar tools for installing and upgrading software.[59] The software in the partner repository is officially supported with security and other important updates by its respective vendors. Canonical supports the packaging of the software for Ubuntu[59][60][61] and provides guidance to vendors.[59] The partner repository is disabled by default and can be enabled by the user.[62] Some popular products distributed via the partner repository as of 28 April 2013 are Adobe Flash Player, Adobe Reader and Skype.
+
+Availability of third-party software[edit]
+See also: GetDeb
+Ubuntu has a certification system for third party software.[63] Some third-party software that does not limit distribution is included in Ubuntu's multiverse component. The package ubuntu-restricted-extras additionally contains software that may be legally restricted, including support for MP3 and DVD playback, Microsoft TrueType core fonts, Sun's Java runtime environment, Adobe's Flash Player plugin, many common audio/video codecs, and unrar, an unarchiver for files compressed in the RAR file format.
+
+Additionally, third party application suites are available for purchase through Ubuntu Software Center,[64] including many high-quality games such as Braid and Oil Rush,[65] software for DVD playback and media codecs.
+
+There is also Steam available for Ubuntu with a wide range of indie games, such as Amnesia: The Dark Descent, as well as some AAA titles, such as Counter-Strike: Source and Half-Life 2.
+
+Releases[edit]
+Version Code name Release date Supported until
+Desktop Server
+10.04 LTS Lucid Lynx 2010-04-29 2013-05-09 2015-04
+10.10 Maverick Meerkat 2010-10-10 2012-04-10
+11.04 Natty Narwhal 2011-04-28 2012-10-28
+11.10 Oneiric Ocelot 2011-10-13 2013-05-09
+12.04 LTS Precise Pangolin 2012-04-26 2017-04
+12.10 Quantal Quetzal 2012-10-18 2014-05-16
+13.04 Raring Ringtail 2013-04-25 2014-01-27[24]
+13.10 Saucy Salamander 2013-10-17 2014-07-17
+14.04 LTS[66] Trusty Tahr 2014-04-17 2019-04
+14.10 Utopic Unicorn[67] 2014-10-23[68] 2015-07
+16.04 LTS TBA 2016-04 2021-04
+Old versionOlder version, still supportedLatest versionFuture release
+For more details on all Ubuntu releases including older not covered here, see List of Ubuntu releases.
+Each Ubuntu release has a version number that consists of the year and month number of the release.[69] For example, the first release was Ubuntu 4.10 as it was released on 20 October 2004. Version numbers for future versions are provisional; if the release is delayed the version number changes accordingly.
+
+Ubuntu releases are also given alliterative code names, using an adjective and an animal (e.g., "Trusty Tahr" and "Precise Pangolin"). With the exception of the first two releases, code names are in alphabetical order, allowing a quick determination of which release is newer. "We might skip a few letters, and we'll have to wrap eventually." says Mark Shuttleworth while describing the naming scheme.[70] Commonly, Ubuntu releases are referred to using only the adjective portion of the code name; for example, the 14.04 LTS release is commonly known as "Trusty".
+
+Releases are timed to be approximately one month after GNOME releases (which in turn are about one month after releases of X.org). As a result, every Ubuntu release was introduced with an updated version of both GNOME and X.
+
+Upgrades between releases have to be done from one release to the next release (e.g. Ubuntu 13.10 to Ubuntu 14.04) or from one LTS release to the next LTS release (e.g. Ubuntu 12.04 LTS to Ubuntu 14.04 LTS).[71]
+
+Ubuntu 10.10 (Maverick Meerkat), was released on 10 October 2010 (10-10-10). This departed from the traditional schedule of releasing at the end of October in order to get "the perfect 10",[72] and makes a playful reference to The Hitchhiker's Guide to the Galaxy books, since, in binary, 101010 equals decimal 42, the "Answer to the Ultimate Question of Life, the Universe and Everything" within the series.[73]
+
+A DVD or bootable flash drive of 1 GB or more is required for recent versions of Ubuntu. Some versions have been unofficially recompressed to fit on a CD, but do not boot in some circumstances.[74]
+
+Variants[edit]
+
+
+Ubuntu family tree
+See also: List of Ubuntu-based Linux distributions
+Official Ubuntu editions, which are created and maintained by Canonical and the Ubuntu community and receive full support from Canonical, its partners and the Community, are the following:[75][76]
+
+Ubuntu Desktop (formally named as Ubuntu Desktop Edition, and simply called Ubuntu), designed for desktop and laptop PCs using Unity Desktop interface.[77]
+Ubuntu Business Desktop Remix, a release meant for business users that comes with special enterprise software including Adobe Flash, Canonical Landscape, OpenJDK 6 and VMware View, while removing social networking and file sharing applications, games and development/sysadmin tools.[78] The goal of the Business Desktop Remix is not to copy other enterprise-oriented distributions, such as Red Hat Enterprise Linux, but to make it, according to Mark Shuttleworth's blog, "easier for institutional users to evaluate Ubuntu Desktop for their specific needs."[79]
+Ubuntu Server, made for use in servers.[80] The server install CD allows the user to install Ubuntu permanently on a computer for use as a server. It does not install a graphical user interface.
+
+
+By Precise Pangolin (12.04), Kubuntu is a community-supported variant of the Ubuntu distribution which uses the KDE Plasma Workspaces.
+Ubuntu TV, labeled "TV for human beings" by Canonical, was introduced at the 2012 Consumer Electronics Show by Canonical's marketing executive John D. Bernard.[81] Created for SmartTVs, Ubuntu TV provides access to popular Internet services and stream content to mobile devices running Android, iOS and Ubuntu.[82]
+Ubuntu Touch is a variant of Ubuntu for smartphones and tablets which was announced in January 2013 and is expected to be released in Q4 2013 or Q1 2014. The first version available to consumers will only be able to run on the Galaxy Nexus.[83] Higher-end Ubuntu smartphones will be able to run a full Ubuntu desktop when connected to a monitor and keyboard, a feature pioneered in Ubuntu for Android.[84] A concept for one phone with Ubuntu for Phones was published on Ubuntu's official channel on YouTube: the Welcome Screen is shown to have the standard Ubuntu background image, with digital clock on top, and small-to-big circles in the centre, circulating Unread/Notifications/Talk Time. Each of these parts appear and fade each after the other, while changing the colour of the circles in the background and the placement of the little ones. From the Welcome screen, the user could swipe to any of the four directions: up for notifications, left for the app menu, swipe from the right to launch the previous app, and swipe from the bottom to display the operations menu. Also, the user would be able to launch Voice Control by touching the bottom-right corner outside the interface, where the soft buttons would be on other smartphones.[85] Demos will be released and shown at the CES in January 2013. Developers will be able to create one app with two interfaces: a smartphone UI, and, when docked, a desktop UI.[86] Ubuntu for Tablets was previewed at 19 February 2013. The Ubuntu Touch Preview is listed by the Ubuntu Wiki as "running fine" on the Nexus 10 and Nexus 7 tablets.[87] According to the keynote video, an Ubuntu Phone will be able to connect to a tablet, which will then utilize a tablet interface; plugging a keyboard and mouse into the tablet will transform the phone into a desktop; and plugging a television monitor into the phone will bring up the Ubuntu TV interface.[88]
+There are many Ubuntu variants (or derivatives) based on the official Ubuntu editions. These Ubuntu variants install a default set of packages that differ from the official Ubuntu distributions.
+
+The variants recognized by Canonical as contributing significantly towards the Ubuntu project are the following:[76]
+
+Edubuntu, a subproject and add-on for Ubuntu, designed for school environments and home users.[89]
+Ubuntu GNOME, a desktop distribution using the GNOME desktop environment.
+Kubuntu, a desktop distribution using the KDE Plasma Workspaces desktop environment.
+Lubuntu, a lightweight distribution using the LXDE desktop environment.
+Mythbuntu, designed for creating a home theater PC with MythTV and uses the Xfce desktop environment.
+UbuntuKylin (formerly "Ubuntu Chinese Edition"), a Chinese specific version of Ubuntu Desktop.
+Ubuntu Studio, a distribution made for professional video and audio editing, comes with higher-end free editing software.
+Xubuntu, a distribution based on the Xfce desktop environment, designed to run more efficiently on low-specification computers.
+Edubuntu, Ubuntu GNOME, Kubuntu, Lubuntu, Mythbuntu, UbuntuKylin, Ubuntu Studio, and Xubuntu are not commercially supported by Canonical.[49]
+
+Other variants are created and maintained by individuals and organizations outside of Canonical, and they are self-governed projects that work more or less closely with the Ubuntu community.[75]
+
+Ubuntu Server[edit]
+
+
+A screenshot of the Ubuntu 12.04 Server installation boot menu
+Ubuntu has a server edition that uses the same APT repositories as the Ubuntu Desktop Edition. The differences between them are the absence of an X Window environment in a default installation of the server edition (although one can easily be installed including Unity, GNOME, KDE or XFCE) and the installation process.[90] The server edition uses a screen mode character-based interface for the installation, instead of a graphical installation process.
+
+Ubuntu 12.04 LTS Server supports three major architectures: IA-32, X86-64 and ARM.[90]
+
+Ubuntu 10.04 Server Edition[dated info] can also run on VMware ESX Server, Oracle's VirtualBox and VM, Citrix Systems XenServer hypervisors, Microsoft Hyper-V, QEMU, Kernel-based Virtual Machine, or any other IBM PC compatible emulator or virtualizer. Ubuntu 10.04 turns on AppArmor (security module for the Linux kernel) by default on key software packages, and the firewall is extended to common services used by the operating system. The home and Private directories can also be encrypted. It includes MySQL 5.1, Tomcat 6, OpenJDK 6, Samba 3.4, Nagios 3, PHP 5.3, Python 2.6.[13] Many of its services only take 30 minutes to configure.[citation needed]
+
+Cloud computing[edit]
+
+
+Eucalyptus interface
+Ubuntu offers Ubuntu Cloud Images which are pre-installed disk images that have been customized by Ubuntu engineering to run on cloud-platforms such as Amazon EC2, Openstack, Windows and LXC.[91] Ubuntu is also prevalent in the VPS provider Digital Ocean.[92]
+
+Ubuntu 11.04 added support for OpenStack, with Eucalyptus to OpenStack migration tools added by Canonical in Ubuntu Server 11.10.[93][94] Ubuntu 11.10 added focus on OpenStack as the Ubuntu's preferred IaaS offering though Eucalyptus is also supported. Another major focus is Canonical Juju for provisioning, deploying, hosting, managing, and orchestrating enterprise data center infrastructure services, by, with, and for the Ubuntu Server.[95][96]
+
+Development[edit]
+
+
+UDS group photo for the Ubuntu 12.04 LTS release
+The Ubuntu Developer Summit (UDS) is a gathering of software developers which occurs prior to the release of a new public version of Ubuntu.[97]
+
+At the beginning of a new development cycle, Ubuntu developers from around the world gather to help shape and scope the next release of Ubuntu. The summit is open to the public, but it is not a conference, exhibition or other audience-oriented event. Rather, it is an opportunity for Ubuntu developers, who usually collaborate online, to work together in person on specific tasks. From 2013 February, Ubuntu Developer Summit (UDS) is organized online through Google+ Hangouts, any number of participants and viewers can participate. Online UDS is held on two different days instead of two consecutive days. The Online UDS video is archived and is available on the website.
+
+Adoption and reception[edit]
+Installed base[edit]
+Chris Kenyon, vice president for OEM at Canonical Ltd., said that because of a lack of registration, any number provided for Ubuntu usage is a "guesstimate".[98] In fall 2011 Canonical estimated that Ubuntu had more than 20 million users worldwide.[99]
+
+W3Techs estimated in October 2013 that:
+
+Ubuntu is used by 26.1% of all Linux websites, behind only Debian (on which Ubuntu is based), which is used by 32.7% of all Linux websites.[100]
+Ubuntu is the most popular Linux distribution among the top 1000 sites and gains around 500 of the top 10 million websites per day.[101]
+Ubuntu is used by 8.2% of all websites analyzed, growing from less than 7% in October 2012.[102]
+W3Techs only analyses the top 10 million websites.[103] It considers Linux as a subcategory of Unix and estimated in the same month that 66.4% of the analyzed websites use Unix.[104]
+
+According to thecloudmarket.com, Ubuntu is on at least 54% of the images it scanned on Amazon EC2.[105]
+
+Wikimedia data (based on User agent) for September 2013 shows that Ubuntu generated the most page requests to Wikimedia among recognizable Linux distributions.[106][107]
+
+Publicized large-scale deployments[edit]
+The public sector has also adopted Ubuntu. As of January 2009, the Ministry of Education and Science of Republic of Macedonia deployed more than 180,000[108] Ubuntu-based classroom desktops, and has encouraged every student in the country to use Ubuntu-powered computer workstations;[109] the Spanish school system has 195,000 Ubuntu desktops.[108] The French police, having already started using open source software in 2005 by replacing Microsoft Office with OpenOffice.org, decided to transition to Ubuntu from Windows XP after the release of Windows Vista in 2006.[110] By March 2009, the Gendarmerie Nationale had already switched 5000 workstations to Ubuntu.[110] Based on the success of that transition, it planned to switch 15,000 more over by the end of 2009 and to have switched all 90,000 workstations over by 2015 (GendBuntu project).[110] Lt. Colonel Guimard announced that the move was very easy and allowed for a 70% saving on the IT budget without having to reduce its capabilities.[110]
+
+In 2011, Ubuntu 10.04 was adopted by the Indian Justice system.[111]
+
+The city of Munich, Germany has forked Ubuntu 10.04 LTS and created LiMux for use on the city's computers.[112] Munich expects to have all city computers using LiMux by 2013.[citation needed]
+
+In March 2012, the government of Iceland launched a project to get all public institutions using free and open-source software. Already several government agencies and schools have adopted Ubuntu. The government cited cost savings as a big factor for the decision, and also stated that open source software avoids vendor lock-in. A 12-month project has launched to migrate the biggest public institutions in Iceland to open-source, and help ease the migration for others.[113]
+
+Incumbent U.S. President Barack Obama's successful campaign for re-election in 2012 used Ubuntu Linux in its IT department.[114]
+
+Critical reception[edit]
+Ubuntu was awarded the Reader Award for best Linux distribution at the 2005 LinuxWorld Conference and Expo in London,[115] received favorable reviews in online and print publications,[116][117] and has won InfoWorld's 2007 Bossie Award for Best Open Source Client OS.[118] In early 2008 PC World named Ubuntu the "best all-around Linux distribution available today", though it criticized the lack of an integrated desktop effects manager.[119] Chris DiBona, the program manager for open-source software at Google, said “I think Ubuntu has captured people’s imaginations around the Linux desktop,” and “If there is a hope for the Linux desktop, it would be them”. As of January 2009, almost half of Google’s 20,000 employees used a slightly modified version of Ubuntu.[108]
+
+Ubuntu's developers acknowledged battery life problems from 10.04 version and sought to solve the issues of power consumption in the 12.04 LTS release.[120] The 14.04 release improved the situation, but still lagged other operating systems in the battery life metric.[121]
+
+In 2008, Jamie Hyneman, co-host of the American television series Mythbusters, advocated Linux (giving the example of Ubuntu) as a solution to software bloat.[122] Other celebrity users of Ubuntu include:
+
+Cory Doctorow[123] - science fiction writer and open content proponent
+Stephen Fry[124] - actor
+In 2012, a Lifehacker poll about which Linux distribution was the best, Ubuntu and its variants received 51% of the 11,463 votes, followed by Linux Mint with 16%.[125][126]
+
+In March 2013, Canonical announced that it had decided to develop Mir,[127] reversing an earlier plan to move to Wayland as the primary Ubuntu display server[128] and causing widespread objection from the open source desktop community.[129][130][131][132] X.Org contributor Daniel Stone opined: "I'm just irritated that this means more work for us, more work for upstream developers, more work for toolkits, more work for hardware vendors...."[133] In September 2013, an Intel developer removed XMir support from their video driver and wrote "We do not condone or support Canonical in the course of action they have chosen, and will not carry XMir patches upstream".[134][135][136]
+
+In January 2014, the UK's authority for computer security, CESG, reported that Ubuntu 12.04 LTS was "the only operating system that passes as many as 9 out of 12 requirements without any significant risks".[137]
+
+As of 2014, Ubuntu's page on DistroWatch is the second most accessed among Linux distribution pages there, behind Linux Mint.[138]
+
+Amazon controversy[edit]
+See also: Unity (user interface) § Privacy controversy
+One of the new features of Unity in Ubuntu 12.10 was the shopping lens - Amazon search results displayed in the Unity dash. It was alternately described as the "Amazon controversy",[139][140] "privacy fiasco"[141] and "spyware".[142]
+
+As of October 2012, it sent (through a secure HTTPS connection) the user's queries from the home lens to productsearch.ubuntu.com,[143] which then polled Amazon.com to find relevant products; Amazon then sent product images directly to the user's computer through HTTP (this changed in September 2013). If the user clicked in one of these results and then bought something, Canonical got a small fraction of the sale.[144]
+
+In 2012, many reviewers criticized it: as the home lens is the natural means to search for content on the local machine, reviewers were concerned about the disclosure of queries that were intended to be local, creating a privacy problem.[143] As the feature is active by default[143][144][145][146] (instead of opt-in), many users could be unaware of it.
+
+It was awarded the 2013 Big Brother Award.[147]
+
+Some users chose to turn it off or to remove the feature using a patch.[148] An April 2014 article by Scott Gilbertson stated that the online search components of Ubuntu could be turned off with a couple of clicks in version 14.04. The feature may be changed to opt-in in a future release.[121]
+
+China[edit]
+In 2013, Canonical reached an agreement with the Ministry of Industry and Information Technology of the People's Republic of China to make Ubuntu the new basis of the Kylin operating system starting with Raring Ringtail (version 13.04).[149][150] The first version of UbuntuKylin was released on 25 April 2013.[151]
+
+Local communities (LoCos)[edit]
+Not to be confused with Linux User Group.
+In an effort to reach out to users who are less technical, and to foster a sense of community around the distribution, Local Communities,[152] better known as "LoCos", have been established throughout the world. Originally, each country had one LoCo Team. However, in some areas, most notably the United States, each state or province may establish a team. A LoCo Council approves teams based upon their efforts to aid in either the development or the promotion of Ubuntu.
+
+Vendor support[edit]
+Ubuntu works closely with OEMs to jointly make Ubuntu available on a wide range of devices.[153] A number of vendors offer computers with Ubuntu pre-installed, including Dell,[154] Hasee,[citation needed] Sharp Corporation,[155] Specifically, Dell offers the XPS 13 Laptop™, Developer Edition with Ubuntu pre-installed.Cite error: A <ref> tag is missing the closing </ref> (see the help page). System76,[156] WeWi[157] and Tesco[citation needed]. System76 PCs are sold exclusively with Ubuntu. Dell and System76 customers are able to choose between 30-day, three-month, and yearly Ubuntu support plans through Canonical.[158] Dell computers (running Ubuntu 10.04) include extra support for ATI Video Graphics, Dell Wireless, Fingerprint Readers, HDMI, Bluetooth, DVD playback (using LinDVD), and MP3/WMA/WMV.[159] Asus is also selling some Asus Eee PCs with Ubuntu pre-installed and announced that "many more" Eee PC models running Ubuntu for 2011.[160][161][162] Vodafone has made available a notebook for the South-African market called "Webbook".[163][164][165]
+
+Dell sells computers (initially Inspiron 14R and 15R laptops) pre-loaded with Ubuntu in India and China, with 850 and 350 retail outlets respectively.[166][167] Starting in 2013 Alienware began offering its X51 model gaming desktop pre-installed with Ubuntu at a lower price than if it were pre-installed with Windows.[168]
